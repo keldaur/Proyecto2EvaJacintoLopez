@@ -1,0 +1,30 @@
+ul{
+    width:100%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    justify-self: flex-start;
+    justify-content: space-evenly;
+}
+
+    li{
+        width: 80%;
+        flex-grow: 1;
+        height:100px;
+        font-family: 'Roboto Mono', monospace;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 2em;
+        background-color: black;
+        color: white;
+    }
+
+        li:hover{       
+            transition: linear 2s;
+            background-color: red;
+        }    
+
+        li + li {
+            margin-top: 1%;
+        }

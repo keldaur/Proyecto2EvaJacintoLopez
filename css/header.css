@@ -1,3 +1,29 @@
-header{
-    
+
+header{   
+    font-size: 40px;
+    height:150px;
+    width:100%;
+    color: rgb(192, 54, 54);
+    display: flex;
 }
+
+    header *{
+    }
+
+    #autor{
+        border: 2px solid black;
+        width:30%;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    #bigbrother {
+        border:2px solid black;
+        width: 60%;
+        height: auto;
+        background-image: url("../images/headerBigBrother.png");       
+        background-size:contain;
+      }
+
+
+
