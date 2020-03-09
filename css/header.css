@@ -11,8 +11,12 @@ header{
         width:35%;
         text-align: center;
         font-family: 'Anton', sans-serif;
-        line-height: 50px;
+        line-height: 30px;
     }
+
+        #autor p{
+            font-size: 20px;
+        }
 
     #orwell{
         width:15%;

@@ -1,0 +1,33 @@
+section{
+    height:90%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-left: 1%;
+    padding: 2%;
+}
+
+article{
+    margin-left:3%;
+    font-size: 20px;
+    width:90%;
+    padding:1%;
+    background-size: contain;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    
+}
+img{
+    margin:2%;
+    max-width: 100%;
+    height: auto;
+    margin-top:5%;
+}
+
+article + article{
+    margin-top: 2%;
+}
+
+
+

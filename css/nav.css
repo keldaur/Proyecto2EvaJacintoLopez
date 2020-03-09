@@ -1,15 +1,12 @@
 ul{
     width:90%;
-    height: 250px;
+    height: 130px;
     display:flex;
     flex-direction: column;
     list-style: none;
     justify-self: flex-start;
     justify-content: space-evenly;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px 0px;
     padding-top: 2%;
     padding-bottom: 2%;
     line-height: 10px;
@@ -19,11 +16,12 @@ ul{
     li{
         width: 95%;
         flex-grow: 1;
-        height:100px;
         font-family: 'Roboto Mono', monospace;
         text-align: center;
         line-height: 2em;
-        background-color: rgb(51, 51, 51);
+        background: #bdc3c7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: white;
         border-radius: 15px;
         box-shadow: 5px 5px 5px 0px;
@@ -32,8 +30,9 @@ ul{
 
 
         li:hover{       
-            transition: linear 2s;
-            background-color: red;
+            transition: linear 2s;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }    
 
         li + li {
