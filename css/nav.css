@@ -1,24 +1,35 @@
 ul{
-    width:100%;
-    height: 200px;
+    width:90%;
+    height: 250px;
     display:flex;
     flex-direction: column;
     list-style: none;
     justify-self: flex-start;
     justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    line-height: 10px;
+
 }
 
     li{
-        width: 80%;
+        width: 95%;
         flex-grow: 1;
         height:100px;
         font-family: 'Roboto Mono', monospace;
-        border: 1px solid black;
         text-align: center;
         line-height: 2em;
-        background-color: black;
+        background-color: rgb(51, 51, 51);
         color: white;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 0px;
+        
     }
+
 
         li:hover{       
             transition: linear 2s;
@@ -28,3 +39,8 @@ ul{
         li + li {
             margin-top: 1%;
         }
+
+a{
+    color:white;
+    text-decoration: none;
+}

@@ -1,6 +1,6 @@
 body
 {
-    max-width: 100vh;
     height: auto;
-    background-color: blanchedalmond;
+    background: url("../images/background1.jpg");
+    background-size: contain;
 }
