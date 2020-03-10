@@ -16,13 +16,14 @@ article{
     background-size: contain;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    
 }
+
 img{
     margin:2%;
     max-width: 100%;
     height: auto;
     margin-top:5%;
+    border-radius: 300px;
 }
 
 article + article{
