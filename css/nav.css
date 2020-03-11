@@ -19,24 +19,33 @@ ul{
         font-size: 20px;
         text-align: center;
         line-height: 2em;
-        background: linear-gradient(orange 30%, rgb(145, 26, 26));
+        background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,0,0,1));
         color: white;
         border-radius: 15px;
         border:1.5px solid black;
         display:box;
         box-shadow: black, 9px,9px,5px,0px;
+        z-index: 3;
     }
 
 
         li:hover{       
             transition: linear 2s;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
         }    
 
         li + li {
             margin-left: 1%;
         }
+
+        li>ul{
+            display: none;
+          }
+
+        li:hover>ul {
+             display:block;
+        }  
 
 a{
     color:white;

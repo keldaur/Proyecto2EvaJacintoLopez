@@ -4,9 +4,14 @@ footer{
     background: linear-gradient(rgb(122, 121, 121),rgb(71, 71, 71));
     color:white;
     display:flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 footer div{
-    font-size:20px;
+    font-size:20px; 
 }
+
+    a:hover{
+        
+    }
