@@ -1,4 +1,4 @@
-ul{
+nav ul{
     width:90%;
     height: 50px;
     display:flex;
@@ -12,7 +12,8 @@ ul{
     line-height: 10px;
 }
 
-    li{
+    nav ul li{
+        display: block;
         width: 95%;
         flex-grow: 1;
         font-family: 'Source Sans Pro', sans-serif;
@@ -24,26 +25,32 @@ ul{
         border-radius: 15px;
         border:1.5px solid black;
         display:box;
-        box-shadow: black, 9px,9px,5px,0px;
+        -webkit-box-shadow: 2px 15px 7px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 15px 7px 3px rgba(0,0,0,0.75);
+        box-shadow: 2px 22px 7px 3px rgba(0,0,0,0.75);
         z-index: 3;
     }
 
 
-        li:hover{       
+        nav ul li:hover {    
+              
             transition: linear 2s;  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             z-index: 3;
         }    
 
-        li + li {
+           nav ul li:hover a{display:block; }
+
+        
+        nav ul li + li {
             margin-left: 1%;
         }
 
-        li>ul{
+        nav ul li>ul{
             display: none;
           }
 
-        li:hover>ul {
+        nav ul li:hover>ul {
              display:block;
         }  
 
