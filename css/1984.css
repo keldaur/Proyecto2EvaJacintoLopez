@@ -1,0 +1,81 @@
+section{
+    height:90%;
+    width: 80%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 30px;
+    margin-left: 5%;
+    padding: 2%;
+    z-index: 0;
+}
+
+article{
+    margin-left:3%;
+    font-size: 20px;
+    width:60%;
+    padding:1%;
+    background-size: contain;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-family: 'Baloo 2', cursive;
+    border:2px solid red;
+    background-color: rgb(240, 240, 240);
+    -webkit-box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
+    box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
+    z-index: 0;
+    border-radius: 30px;
+    padding: 3%;
+}
+
+
+aside{
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    width:15%;
+    border:2px solid red;
+    background-color: rgb(240, 240, 240);
+    -webkit-box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
+    box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
+    z-index: 0;
+    border-radius: 30px;
+    padding: 3%;
+    
+}
+
+    aside img{
+        margin:2%;
+        max-width: 150%;
+        height: auto;
+        margin-top:5%;
+        border : 2px solid  rgba(255,0,0,1);
+        
+    }
+
+#edicion, h1{
+        width:100%;
+        height:auto;
+        border: 2px solid black;
+        margin-top: 2%;
+        text-align: center;
+        color: #FFFFFF;
+        background: #333333;color: #000000;
+        background: #FFFFFF;color: #FFFFFF;
+        background: #912C22;
+        text-shadow: 0 0 10px #FFFFFF;
+    }
+
+    p::first-letter {
+        font-size: 200%;
+        color: rgb(255, 34, 63);
+      }
+
+
+
+

@@ -39,5 +39,10 @@ article + article{
     margin-top: 2%;
 }
 
+p::first-letter {
+    font-size: 200%;
+    color: rgb(236, 39, 39);
+  }
+
 
 

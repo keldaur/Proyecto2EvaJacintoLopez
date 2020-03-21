@@ -13,6 +13,8 @@ header{
         font-family: 'Anton', sans-serif;
         line-height: 30px;
         margin-top: 1%;
+        font-weight: 500;
+        font-variant: small-caps;
     }
 
         #autor p{
