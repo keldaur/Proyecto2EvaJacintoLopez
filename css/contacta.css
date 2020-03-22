@@ -5,8 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
-	background: #f2f2f2; 
+	color: black; 
 	font-size: 1em;
 	line-height: 1.5em;  
 }
@@ -41,9 +40,7 @@ img {
         margin:8% 5% 2%;
         padding:1%;
         height:750px;
-        background: white;
 	    border-radius: 35px;
-        box-shadow: 0px 5px 5px 5px #888888;
         }
 /*Simbolitos de redes sociales*/
 
@@ -57,18 +54,18 @@ img {
         }
 
 /*titulo form*/
-    .contentHeader{
-        border-radius: 10px;
-        background-color:#0b76a6;    
+
+    .contentHeader h1{
+        border:2px solid black;
+        border-radius: 15px; 
+        background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(143, 26, 26));
+        margin:2% auto;
+        padding:1%;
+        text-align: left;
+        color:white;
+        font-family: "Comic Sans MS", sans-serif;
+        font-weight: bold; 
         }
-        .contentHeader h1{
-            margin:2% auto;
-            padding:1%;
-            text-align: left;
-            color:white;
-            font-family: "Comic Sans MS", sans-serif;
-            font-weight: bold; 
-            }
 
 /*formulario*/
 
@@ -82,13 +79,13 @@ img {
            
             margin-top: 5%;
             border: none;
-            border-top: 1px solid #787877;
+            border-top: 1px solid #fa272721;
 }
         .formulario .input{
             display: inline-block;
             padding:10%;
             width:90%;
-            border-bottom:1px solid #e3e3e3;
+            border-bottom:1px solid #bb2424d3;
             padding:2%;
 }
 
@@ -107,7 +104,7 @@ img {
                   padding: 1%;
                   margin: 1%;
                   box-sizing: border-box;
-                  border: 1.5px inset #94d1cd;
+                  border: 1.5px inset red;
                   border-radius: 4px;
                   color:black;
                   font-family: Helvetica, Arial, sans-serif;
@@ -117,7 +114,7 @@ img {
                 }
 
 ::placeholder {
-    color: #79a3b5;
+    color: black;
     line-height: 1em;
     vertical-align: top;
 }
@@ -159,7 +156,7 @@ img {
         }
                     
      .formulario .inputsend input[type=button], input[type=submit], input[type=reset]{
-          background-color: #0b76a6;
+          background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(143, 26, 26));
           border: none;
           color: white;
           padding: 20% 125% 20% 75%;
@@ -172,16 +169,11 @@ img {
 
 
     #reset, #enviar{
-        display: inline-block;
         margin:7%;
         float:right;
         width:12%;
     } 
 
-
-/*botones radiales*/
-
-/*mención especiales para w3schools por tener unos botones tan bonitos*/
 
 /* The container */
 .container {
