@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contacta.css">
     <title>George Orwell</title>
 </head>
 
@@ -34,11 +35,70 @@
         </ul>
     </nav>  
 
-    <section>
-        <article>
-           
-        </article>
-    </section>
+    <main>
+        <section>
+            <article>
+                <div class="formulario"> 
+                    <form id="form" action="contactar.php" method="post"    >   
+                         <div class="contentHeader">
+                                 <h1>Contacto</h1>
+                         </div> 
+ 
+                         <fieldset>
+                             <div class="input">
+                                <label for="nombre"><p>Nombre:</p></label>
+                                     <input id="nombre" name="nombre" type="text" value="" maxlength="20" placeholder="Introduce tu nombre..."\>
+                             </div>
+                             <div class="input">
+                                 <label for="apellidos"><p>Apellido:</p></label>
+                                 <input id="apellidos" name="apellidos" type="text" value="" maxlength="40" placeholder="Introduce tu apellido..." \>
+ 
+                             </div>
+                              <div class="input" id="mensaje">
+                                 <label for="mensaje" ><p>Mensaje:</p></label> 
+                                 <textarea id="mensaje" placeholder="Introduzca tu mensaje..."rows="5" cols="50" form="form"></textarea>                              
+                             </div>
+ 
+                             <div class="tipoenvio">
+                                 <p id="via">Vía de contacto: </p>
+                                 <div class="opcion">
+                                         <label class="container">Correo
+                                           <input type="radio" checked="checked" name="radio">
+                                           <span class="checkmark"></span>
+                                         </label>
+                                         <label class="container">SMS
+                                           <input type="radio" name="radio">
+                                           <span class="checkmark"></span>
+                                         </label>
+                                         <label class="container">Facebook
+                                           <input type="radio" name="radio">
+                                           <span class="checkmark"></span>
+                                         </label>
+                                 </div>
+                             </div>
+ 
+                             <div id="inputsend">
+                                  
+                                  <div id="enviar">
+                                      <label for id="enviar"></label>
+                                      <input id="enviar" type="submit" name="enviar" value="Enviar" action="contactame.html" />
+                                  </div>
+                                  <div id="reset">
+                                      <label for id="reset"></label> 
+                                      <input id="reset" type="reset" value="Limpiar">
+                                  </div>
+ 
+                              </div>
+ 
+                         </fieldset>
+ 
+ 
+                     </form>
+ 
+                 </div>
+            </article>
+        </section>
+    </main>    
     <footer>
         <div class = "footelement"><a href="georgeorwellblogsite@gmail.com">georgeorwellblogsite@gmail.com </a></div>
         <div> &nbsp;© 2020 </div>

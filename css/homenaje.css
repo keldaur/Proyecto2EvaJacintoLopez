@@ -3,7 +3,7 @@ section{
     width: 80%;
     display:flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     border-radius: 30px;
     margin-left: 5%;
@@ -37,7 +37,7 @@ aside{
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    width:15%;
+    width:30%;
     border:2px solid red;
     background-color: rgb(240, 240, 240);
     -webkit-box-shadow: -2px 22px 5px 10px rgba(0,0,0,0.75);
@@ -46,20 +46,19 @@ aside{
     z-index: 0;
     border-radius: 30px;
     padding: 3%;
+    
 }
 
     aside img{
         margin:2%;
-        max-width: 150%;
+        max-width: 100%;
         height: auto;
         margin-top:5%;
         border : 2px solid  rgba(255,0,0,1);
+        
     }
 
-    aside #edicion{
-        margin-top: 6%;
-    }
-    #edicion, h1{
+#edicion, h1{
         width:100%;
         height:auto;
         border: 2px solid black;
@@ -71,11 +70,8 @@ aside{
         background: #912C22;
         text-shadow: 0 0 10px #FFFFFF;
     }
-    
+
     p::first-letter {
         font-size: 200%;
         color: rgb(255, 34, 63);
       }
-
-
-
