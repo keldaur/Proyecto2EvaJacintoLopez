@@ -9,7 +9,21 @@ body {
 	font-size: 1em;
 	line-height: 1.5em;  
 }
+
+.container {
+  
+    float:left;
+    width: 70%;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
  
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 
 h1 {
 	font-size: 2.3em;
@@ -19,18 +33,6 @@ h1 {
 	text-align: center;
 	font-weight: 300;
 }
- 
-p {
-	margin: 1%;
-}
- 
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-
-/* estilos de contenido */
 
 #main-content {
     margin: 4% auto;
@@ -42,7 +44,7 @@ img {
         height:750px;
 	    border-radius: 35px;
         }
-/*Simbolitos de redes sociales*/
+
 
     .socialnet{
         display: inline-block;
@@ -53,7 +55,7 @@ img {
             margin:0.5%;
         }
 
-/*titulo form*/
+
 
     .contentHeader h1{
         border:2px solid black;
@@ -67,7 +69,7 @@ img {
         font-weight: bold; 
         }
 
-/*formulario*/
+
 
     .formulario{
         height:20%;
@@ -113,13 +115,17 @@ img {
                     height:100px;
                 }
 
-::placeholder {
-    color: black;
-    line-height: 1em;
-    vertical-align: top;
+                ::placeholder {
+                    color: black;
+                    line-height: 1em;
+                    vertical-align: top;
+                    }
+
+
+p {
+	margin: 1%;
 }
 
-/* Style the indicator (dot/circle) */
 .tipoenvio ::after {
  	top: 9px;
 	left: 9px;
@@ -174,13 +180,3 @@ img {
         width:12%;
     } 
 
-
-/* The container */
-.container {
-  
-  float:left;
-  width: 70%;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-}

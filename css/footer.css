@@ -9,9 +9,9 @@ footer{
     margin-top: 10%;
 }
 
-footer div{
-    font-size:20px; 
-}
+    footer div{
+        font-size:20px; 
+    }
 
     a:hover{
         color: red;
